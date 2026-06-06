@@ -1,0 +1,15 @@
+# --- secrets (NEVER commit the Anthropic key) ---
+.env
+**/.env
+!**/.env.example
+
+# --- Rust / SpacetimeDB build output ---
+server/target/
+**/*.wasm
+
+# --- Node ---
+node_modules/
+
+# --- OS / editor ---
+.DS_Store
+*.log
