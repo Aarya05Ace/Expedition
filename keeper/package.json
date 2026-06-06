@@ -1,0 +1,22 @@
+{
+  "name": "expedition-npc-director",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "THE LOST EXPEDITION — NPC Director: an LLM-driven privileged SpacetimeDB client that answers player voice interrogations as in-character forest NPCs. (Successor to the TOMB RUSH Tomb Keeper.)",
+  "scripts": {
+    "start": "tsx npc-director.ts",
+    "dev": "tsx watch npc-director.ts",
+    "director": "tsx npc-director.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.5",
+    "spacetimedb": "^2.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "@types/node": "^22.0.0",
+    "typescript": "~5.7.2"
+  }
+}
